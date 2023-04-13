@@ -1,0 +1,25 @@
+###
+@url_dev=http://localhost:3000
+
+GET {{url_dev}}/api/users
+
+###
+POST {{url_dev}}/api/users
+content-type: application/json
+
+{
+    "username": "lanthe"
+}
+
+
+###
+POST {{url_dev}}/api/users/6437af4ec2a2fa2f2269a075/exercises 
+content-type: application/json
+
+{
+    "description": "description",
+    "duration": 30,
+    "date": "12/4/2024"
+}
+
+
